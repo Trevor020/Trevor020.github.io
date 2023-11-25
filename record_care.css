@@ -1,0 +1,204 @@
+body{min-height: 100vh;
+display: flex;
+flex-direction: column;}
+
+main{flex:1;
+padding:20;}
+
+nav,main,footer,body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1C73C4;
+    display: block;
+margin: 0;}
+
+#wrapper{background-color: #1C73C4;
+width: 100%;
+min-height: 100vh;
+margin-right: auto;
+margin-left:auto;
+display: flex;
+flex: 1;
+flex-direction:column ;}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    width: 100%; 
+    background-color: #1CC4C1;
+    z-index: 100;
+}
+
+nav h1{text-align: center;
+font-weight: bold;
+font-size: 3em;
+margin: 0;
+}
+
+nav ul{margin: 5px;
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+top: 1.8em;
+right: 10em;
+font-size: 1em;}
+
+nav ul li{display: inline;
+    padding-right: 1em;
+    padding-left: 1em;
+margin: 0;}
+
+nav a{text-decoration: none;}
+nav a:link{color: black;}
+nav a:visited{ color:purple;}
+nav a:hover { color: gray; }
+
+#cleaning{background-color:#1CC46D;
+    width: 40%;
+  margin: 100px 10% 150px;
+  padding-left: 50px;
+  padding-bottom: 150px;
+padding-top: 10px;}
+
+#storing{background-color:#1CC46D;
+    width: 40%;
+  margin: 20px 50% 80px;
+padding-left: 50px;
+padding-bottom: 80px;
+padding-top: 10px;}
+
+#buying{background-color:#1CC46D;
+    width: 40%;
+  margin: 20px 8% 100px;
+padding-left: 50px;
+padding-bottom: 100px;
+padding-top: 10px;}
+
+#turntables{background-color:#1CC46D;
+    width: 40%;
+  margin: 100px 10% 150px;
+  padding-left: 50px;
+  padding-bottom: 150px;
+padding-top: 10px;
+padding-right: 10px;}
+
+iframe{margin:20px 30% 150px;}
+
+#cleaningimage{margin:-550px 50% 145px;}
+
+#storageimage{margin:-405px 22% 150px;}
+
+#buyingimage{margin: -405px 50% 180px;}
+
+#turntableimage{margin:-550px 53% 145px;}
+
+footer{background-color: #1CC4C1;
+text-align: center;
+font-size: small;
+font-family: italic;}
+
+table,th,td{background-color: #1CC46D;
+border: 1px solid black;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10%;
+width: 50%;}
+
+#experience{background-color:#1CC46D;
+    width: 40%;
+  margin: 180px 30% 150px;
+  padding-left: 50px;
+  padding-bottom: 150px;
+padding-top: 10px}
+
+#contactus{background-color:#1CC46D;
+    width: 40%;
+  margin: 180px 30% 150px;
+  padding-left: 50px;
+  padding-bottom: 150px;
+padding-top: 10px}
+
+form{padding: 2em;
+background-color: #1CC46D;
+margin-left: 25%;
+    margin-right:25%;
+    width: 50%;}
+
+label{display: block;
+    margin-left: 45%;
+    margin-right:45%;}
+
+input{margin-left: 45%;
+        margin-right:45;}
+
+textarea{margin-left: 45%;
+            margin-right:45%;}
+
+ @media only screen and (max-width: 1024px)
+ {body { background-image: none; 
+min-height: 100vh;}
+main{flex:1;
+  padding:20;
+min-height: 100vh;}
+ #wrapper { width: auto;
+       min-width: 0;
+       margin: 0;
+       padding: 0;
+       box-shadow: none; 	}
+       h1 { margin-top: 0;
+        margin-bottom: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      font-size: 2.5em; 	}
+    nav { float: none;
+        padding-top: 0;
+        font-size: 1.3em;
+       	width: 100%;
+      padding-bottom: 0;}
+    nav li  { display: inline-block; }
+    nav a { padding: 1em;
+          width: 8em;
+        font-weight: bold;
+        border-style: none; }
+    nav ul { padding: 0;
+           margin: 0; }
+      #cleaning{margin: 10% 15% 10%;
+      padding-bottom: 0;}
+      #storing{margin: 60% 55% 10%;
+      padding-bottom: 0;}
+      #buying{margin: 45% 15% 10%;
+      padding-bottom: 0;}
+      footer{margin-top: 20px;
+      padding:10px;
+    width: 100%;
+  margin-top: auto;}
+  #turntables{margin: 10% 35% 10%;}
+  table{margin: 70% 35% 10%}
+      img{display: none;}
+    iframe{display: none;}}
+
+      @media only screen and (max-width: 768px) 
+      {h1 { font-size: 2em;
+      padding-left: 0; }
+   nav { margin: 0;
+  width: 100%; }
+   nav a {padding: 0.2em;}
+  nav li {display: inline-block;}
+  #cleaning{margin: 5% 5% 10%;
+    padding-bottom: 0;}
+    #storing{margin: 60% 55% 10%;
+    padding-bottom: 0;}
+    #buying{margin: 55% 5% 10%;
+    padding-bottom: 0;}
+    footer{margin-top: 20px;
+    padding:10px;
+  width: 100%;}
+  #turntables{margin: 10% 35% 10%;}
+  table{margin: 80% 35% 10%}
+      img{display: none;}
+    iframe{display: none;}}
+ 
+ 
+              
